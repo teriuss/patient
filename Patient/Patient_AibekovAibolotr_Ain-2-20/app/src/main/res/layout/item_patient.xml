@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#009688"
+    android:orientation="vertical"
+    android:layout_marginBottom="10dp"
+    android:id="@+id/item">
+    <TextView
+        android:id="@+id/f_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Имя"
+        android:layout_marginStart="30dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/l_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Фамилия"
+        android:textColor="#ffffff"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/patronymic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Отчество"
+        android:textColor="#ffffff"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="Номер телефона"
+        android:layout_marginStart="30dp"
+        android:textColor="#ffffff"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+</androidx.appcompat.widget.LinearLayoutCompat>
